@@ -22,10 +22,10 @@ export default function Cadastro({ navigation }) {
       const userCredential = await createUserWithEmailAndPassword(auth, email, senha);
       const uid = userCredential.user.uid;
 
-      // Atualiza displayName no Auth
+      // Atualizar displayName no Auth
       await updateProfile(userCredential.user, { displayName: name });
 
-      // Salva no Firestore
+      // Salvar no Firestore
       await setDoc(doc(db, "usuarios", uid), {
         nome: name,
         email,

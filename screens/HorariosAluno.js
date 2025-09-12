@@ -48,7 +48,7 @@ export default function HorariosAluno({ navigation }) {
     if (!selectedTime) return Alert.alert("Atenção", "Selecione um horário!");
 
     try {
-      // Busca o nome do aluno no Auth (displayName atualizado no cadastro)
+      // Buscar o nome do aluno no Auth 
       const studentName = auth.currentUser.displayName || "Aluno";
 
       await addDoc(collection(db, "studentAppointments"), {

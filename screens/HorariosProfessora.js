@@ -4,7 +4,7 @@ import { Calendar } from "react-native-calendars";
 import { db, auth } from "../firebaseConfig";
 import { collection, addDoc, getDocs, query, where, deleteDoc, doc } from "firebase/firestore";
 
-// Utilitário para formatar horários
+// Formatar horários
 function formatTime(timeStr) {
   if (!timeStr) return "";
   let [h, m] = timeStr.split(":");

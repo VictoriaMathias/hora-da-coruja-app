@@ -39,10 +39,10 @@ export default function MeusAgendamentos() {
           style: "destructive",
           onPress: async () => {
             try {
-              // Remove o agendamento do aluno
+              // Remover o agendamento do aluno
               await deleteDoc(doc(db, "studentAppointments", id));
 
-              // Atualiza a lista local
+              // Atualizar a lista local
               setAppointments(prev => prev.filter(a => a.id !== id));
 
               Alert.alert("Sucesso", "Agendamento excluído!");

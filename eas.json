@@ -1,0 +1,20 @@
+{
+  "cli": {
+    "version": ">= 3.18.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_USE_NEW_ARCHITECTURE": "1",
+        "NODE_ENV": "preview"
+      }
+    }
+  },
+  "submit": {
+    "preview": {}
+  }
+}
+
+

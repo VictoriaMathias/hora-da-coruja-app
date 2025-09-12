@@ -6,7 +6,7 @@ import { auth, db } from './firebaseConfig';
 import { onAuthStateChanged } from 'firebase/auth';
 import { doc, getDoc } from 'firebase/firestore';
 
-// Import das telas
+// Importar as telas
 import Login from './screens/Login';
 import Cadastro from './screens/Cadastro';
 import HorariosProfessora from './screens/HorariosProfessora';
@@ -23,7 +23,7 @@ export default function StackNavigation() {
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, async (user) => {
       if (user) {
-        // Usuário logado, buscar perfil no Firestore
+        // Buscar perfil no Firestore
         const userDoc = await getDoc(doc(db, "usuarios", user.uid));
         if (userDoc.exists()) {
           const perfil = (userDoc.data().perfil || "aluno").toLowerCase();
