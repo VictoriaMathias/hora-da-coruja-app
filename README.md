@@ -61,10 +61,21 @@ expo start
 
 ## 🗂 Telas do Projeto
 
-1. Tela de Login ![Tela de Login](https://github.com/user-attachments/assets/8d6e2baa-a1e4-4b7d-b6e1-904c952e52ab)
-2. Tela de Cadastro ![Tela de Cadastro](https://github.com/user-attachments/assets/3a396dd6-3d95-45a6-a79e-15b72646f986)
-3. Tela de Gestão da Professora ![Tela de gestão da prof](https://github.com/user-attachments/assets/4ad19e2f-1fea-432a-afbf-e1bb4260dc84)
-4. Tela de Horários do Aluno ![Tela de horários do aluno](https://github.com/user-attachments/assets/381e363a-0acf-4f8e-95f3-a8bedc509b66)
+1. Tela de Login
+2. Tela de Cadastro
+3. Tela de Gerenciamento dos Horários da Professora
+4. Tela de Agendamento do Aluno
+
+<br/>
+
+<p align="center">
+  <img src= "images/Tela%20de%20Login.jpeg" width="15%" hspace="40">
+  <img src= "images/Tela%20de%20Cadastro.jpeg" width="15%" hspace="40">
+  <img src= "images/Tela%20de%20gest%C3%A3o%20da%20prof.jpeg" width="15%" hspace="40"> 
+  <img src= "images/Tela%20de%20hor%C3%A1rios%20do%20aluno.jpeg" width="15%" hspace="40"> 
+</p>
+
+
 
 ---
 
