@@ -15,14 +15,6 @@
 
 ---
 
-## 📲 Download
-
-Baixe o APK do aplicativo pelo link abaixo:  
-
-👉 [Clique aqui para baixar o APK](https://expo.dev/accounts/victoriamathias/projects/hora-da-coruja/builds/b9d99fd3-f3cf-4f6a-a859-09d9adef0116)
-
----
-
 ## 📱 Funcionalidades 
 
 - Cadastro de **alunos** e **professores**.  
